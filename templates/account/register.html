@@ -1,0 +1,10 @@
+{% extends "root.html" %}
+
+{% block content %}
+<h1>Register for BlockCampus</h1>
+<form action="/account/register" method="post">
+    <label for="email">Email Address</label>
+    <input type="text" id="email" name="email" placeholder="example@berkeley.edu">
+    <input type="submit" value="Submit">
+</form>
+{% endblock content %}
